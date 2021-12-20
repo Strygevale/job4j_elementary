@@ -7,18 +7,18 @@ import static org.junit.Assert.*;
 
 public class X2Test {
 
+    /*a,b,c,x - входные параметры
+    * expected - ожидаемое значение
+    * rsl - вызов метода, который проверяем.результат вычисления это всегда одна переменная
+    * assert - сравнение ожидаемое с полученным */
     @Test
     public void whenA10B0C0X2Then40() {
-        //входные параметры
         int a = 10;
         int b = 0;
         int c = 0;
         int x = 2;
-        //ожидаемое значение
         int expected = 40;
-        //вызов метода, который проверяем.результат вычисления это всегда одна переменная
         int rsl = X2.calc(a, b, c, x);
-        //сравнение ожидаемое с полученным
         Assert.assertEquals(expected, rsl);
     }
 
