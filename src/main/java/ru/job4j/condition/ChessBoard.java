@@ -11,8 +11,8 @@ public class ChessBoard {
         return rsl;
     }
 
-    public static boolean boardFields(int num) {
-        return num >= 0 || num >= 7;
+    private static boolean boardFields(int num) {
+        return num >= 0 && num <= 7;
     }
 
 }
