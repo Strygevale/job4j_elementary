@@ -1,7 +1,5 @@
 package ru.job4j.array;
-
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Machine {
 
